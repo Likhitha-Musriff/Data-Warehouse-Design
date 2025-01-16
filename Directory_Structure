@@ -1,17 +1,10 @@
-data-warehouse-design/
-│
-├── README.md                 # Project overview and documentation
-├── data-models/              # SQL scripts for creating database schemas
-│   ├── Table_creation.sql        # Various table creation including dimension tables
-│   └── ...
-│
-├── etl/                      # ETL scripts and pipeline implementations
-│   ├── extraction.py            # Data extraction script
-│   ├── transformation.py          # Data transformation script
-│   ├── load.py               # Data loading script
-│   └── ...
-│
-├── analytics/                # SQL queries for analytics and reports
-│   ├── sales_report.sql      # SQL to generate sales report
-│   ├── customer_segmentation.sql # SQL to segment customers
+data-warehouse-design
+
+├── README.md                  # Project overview and documentation
+│   Table_creation.sql         # Various table creation including dimension tables
+│   Extraction.py              # Data extraction script
+│   Transformation.py          # Data transformation script
+│   Load.py                    # Data loading script
+│   Sales_report.sql           # SQL to generate sales report
+│   Customer_Segmentation.sql  # SQL to segment customers
 
