@@ -1,6 +1,6 @@
 data-warehouse-design
 
-├── README.md                  # Project overview and documentation
+|   README.md                  # Project overview and documentation
 │   Table_creation.sql         # Various table creation including dimension tables
 │   Extraction.py              # Data extraction script
 │   Transformation.py          # Data transformation script
